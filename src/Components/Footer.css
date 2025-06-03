@@ -1,0 +1,92 @@
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #444;
+    background-color: #fafafa;
+  }
+  
+  .get-in-touch-label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 6px 15px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+    color: #666;
+  }
+  [data-theme="dark"] .get-in-touch-label {
+  background-color: #000;  /* or your desired dark bg */
+}
+
+  
+  .message {
+    max-width: 450px;
+    margin: 0 auto 30px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .contact-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+    cursor: default;
+  }
+  
+  .contact-text {
+    font-size: 1.25rem;
+  }
+  
+  .copy-icon {
+    cursor: pointer;
+    color: #666;
+    transition: color 0.3s;
+  }
+  
+  .copy-icon:hover {
+    color: #000;
+  }
+  
+  .find-me-text {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .social-icons {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-link {
+    color: #444;
+    transition: color 0.3s;
+  }
+  
+  .social-link:hover {
+    color: #000;
+  }
+  
+  .footer-copyright {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #888;
+  }
+
+  .contact-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem; /* space between rows */
+  }
+  
+  .contact-text {
+    display: block;
+  }
+  
+  

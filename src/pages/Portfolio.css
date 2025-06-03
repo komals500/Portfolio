@@ -1,0 +1,621 @@
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 0px 40px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.profile-left {
+    flex: 1;
+    max-width: 50%;
+}
+
+.profile-left h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.profile-left p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.profile-left .social-icons {
+    margin-top: 20px;
+}
+
+.profile-left .social-icon {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.profile-left .social-icon:hover {
+    color: #0056b3;
+}
+
+.profile-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-section {
+    padding: 40px 40px 0px 40px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin-top: 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-label {
+    font-size: 0.9rem;
+    color: #888;
+    background-color: #eaeaea;
+    padding: 5px 12px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 0 auto 30px auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+}
+
+[data-theme="dark"] .section-label {
+    background-color: #000;
+}
+
+.about-me-wrapper {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-me-image {
+    flex: 1;
+    max-width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-me-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-me-content {
+    flex: 1.2;
+    max-width: 55%;
+    color: #333;
+
+    h2 {
+        margin: 0;
+    }
+}
+
+.about-me-content h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #222;
+}
+
+.about-me-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.about-me-content a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.about-me-content a:hover {
+    text-decoration: underline;
+}
+
+.about-me-content ul {
+    margin-top: 20px;
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+.quick-bits-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, max-content));
+    column-gap: 40px;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.quick-bits-list li {
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.skills-section {
+    padding: 40px 40px 0px 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.skills-section .skills-intro {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.skills-section__title {
+    margin: 0 0 20px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.skills-section__icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.skills-section__icon-wrapper {
+    width: 70px;
+    text-align: center;
+}
+
+.skills-section__icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 8px;
+}
+
+.skills-section__icon-label {
+    font-size: 10px;
+    font-weight: 600;
+    color: #555;
+    margin: 0;
+}
+
+.experience-section {
+    padding: 40px 40px 0px 40px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    margin-top: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience-section .section-label {
+    font-size: 0.9rem;
+    color: #888;
+    background-color: #eaeaea;
+    padding: 5px 12px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+[data-theme="dark"] .experience-section .section-label {
+    background-color: #000;
+    /* or your desired dark bg */
+}
+
+.experience-section .experience-intro {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience-card {
+    align-items: flex-start;
+    background: white;
+    padding: 30px 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: gainsboro;
+}
+
+[data-theme="dark"] .experience-card {
+    background-color: #000;
+    /* or your desired dark bg */
+}
+
+.experience-logo img {
+    width: 124px;
+    height: auto;
+    margin-bottom: 14px;
+}
+
+[data-theme="dark"] .experience-logo {
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+
+.experience-details {
+    flex: 1;
+    text-align: left;
+}
+
+.experience-details h3 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.experience-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+.experience-details ul li {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+.experience-duration {
+    white-space: nowrap;
+    font-size: 0.9rem;
+    color: #888;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.work-section {
+    padding: 40px 40px 0px 40px;
+}
+
+.work-card {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.work-image {
+    flex: 1;
+    background: #f5f6fa;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+}
+
+.work-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+    object-fit: contain;
+}
+
+.work-content {
+    flex: 1;
+    background: white;
+    padding: 40px 50px;
+    text-align: left;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.02);
+    border-radius: 0 12px 12px 0;
+}
+
+[data-theme="dark"] .work-content {
+    background-color: #121212;
+    color: white;
+}
+
+[data-theme="dark"] .work-image {
+    background-color: #121212;
+}
+
+.work-content h3 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.work-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.work-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.work-tag {
+    background-color: #e1e7f0;
+    color: #333;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    user-select: none;
+}
+
+.work-link-icon {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #666;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.work-link-icon:hover {
+    color: #000;
+}
+
+/* ======= Mobile Responsive ======= */
+@media (max-width: 768px) {
+
+    /* Profile Section: stack vertically */
+    .profile-container {
+        flex-direction: column;
+        padding: 24px 16px;
+    }
+
+    .logos {
+        justify-content: center;
+    }
+
+    .profile-left,
+    .profile-right {
+        max-width: 100%;
+        flex: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .profile-left {
+        order: 2;
+    }
+
+    .profile-right {
+        order: 1;
+    }
+
+    .profile-left h1 {
+        font-size: 2rem;
+    }
+
+    .profile-left p {
+        font-size: 1rem;
+    }
+
+    .profile-left .social-icons {
+        justify-content: center;
+    }
+
+    .profile-img {
+        height: 182px;
+        margin: 0 auto;
+    }
+
+    /* About Me Section: stack vertically */
+    .about-me-wrapper {
+        flex-direction: column;
+        gap: 32px;
+        padding: 14px 16px;
+    }
+
+    .about-me-section {
+        padding: 14px 16px;
+        margin-top: 20px;
+    }
+
+    .about-me-image,
+    .about-me-content {
+        max-width: 100%;
+        flex: none;
+        text-align: center;
+    }
+
+    .about-me-content h2 {
+        font-size: 1.75rem;
+    }
+
+    /* Skills Section */
+    .skills-section {
+        padding: 24px 16px;
+        margin-top: 0;
+    }
+
+    .skills-section .skills-intro {
+        margin-bottom: 24px;
+    }
+
+    .skills-section__icons {
+        gap: 10px;
+    }
+
+    /* Experience Section */
+    .experience-section {
+        padding: 24px 16px;
+        margin-top: 20px;
+    }
+
+    .experience-section .experience-intro {
+        margin-bottom: 18px;
+    }
+
+    .experience-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .experience-header {
+        display: block;
+        text-align: center;
+    }
+
+    .experience-logo img {
+        width: 110px;
+        height: auto;
+    }
+
+    .experience-details {
+        margin-bottom: 12px;
+    }
+
+    .experience-duration {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    /* Work Section */
+    .work-section {
+        padding: 24px 16px
+    }
+
+    .work-card {
+        flex-direction: column;
+        gap: 24px;
+        padding: 24px 16px;
+        margin-bottom: 0;
+    }
+
+    .work-image {
+        padding: 16px;
+        order: 1;
+    }
+
+    .work-content {
+        padding: 16px;
+        border-radius: 12px;
+        order: 2;
+    }
+
+    .work-content h3 {
+        font-size: 1.4rem;
+    }
+
+    .work-content p {
+        font-size: 1rem;
+    }
+
+    .work-tag {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}
+
+.experience-card {
+    transition: transform 0.4s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+}
+
+.work-card {
+    transition: transform 0.4s ease;
+}
+
+.work-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Default light theme */
+body,
+header,
+footer,
+.profile-container,
+.about-me-section,
+.skills-section,
+.experience-section,
+.work-section {
+    color: #000;
+    /* black text */
+    background-color: #fff;
+    /* light background */
+}
+
+/* Dark theme overrides */
+[data-theme="dark"] body,
+[data-theme="dark"] header,
+[data-theme="dark"] footer,
+[data-theme="dark"] .profile-container,
+[data-theme="dark"] .about-me-section,
+[data-theme="dark"] .skills-section,
+[data-theme="dark"] .experience-section,
+[data-theme="dark"] .work-section {
+    color: #fff !important;
+    /* force white text */
+    background-color: #121212;
+    /* dark background */
+}
+
+/* Make sure links are visible */
+[data-theme="dark"] a {
+    color: #66aaff;
+}
+
+/* Fix buttons or any special text inside these sections if needed */
+[data-theme="dark"] p,
+[data-theme="dark"] span,
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] ul,
+[data-theme="dark"] div,
+[data-theme="dark"] li {
+    color: #fff !important;
+}
+
+[data-theme="dark"] .top{
+color: black !important;
+background-color: #fafafa !important;
+}
+
+[data-theme="dark"] .divider{
+    background-color: darkgray;
+}
