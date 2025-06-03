@@ -105,7 +105,7 @@ const Profile = () => {
                     </p>
                     <p><strong>Location:</strong> Jaipur, Rajasthan</p>
                     <div className='logos' style={{ display: "flex", gap: "1rem", marginTop: "1rem", fontSize: "1.5rem", cursor: "pointer" }}>
-                        <a href="https://github.com/Komal5700" aria-label="GitHub" style={{ color: "inherit", textDecoration: "none" }}><GithubOutlined /></a>
+                        <a href="https://github.com/komals500" aria-label="GitHub" style={{ color: "inherit", textDecoration: "none" }}><GithubOutlined /></a>
                         <a href="https://www.linkedin.com/in/komal-saini-739038221/" aria-label="Dribbble" style={{ color: "inherit", textDecoration: "none" }}><LinkedinOutlined /></a>
                     </div>
                 </div>  
